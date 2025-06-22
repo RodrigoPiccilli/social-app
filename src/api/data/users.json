@@ -1,0 +1,47 @@
+{
+    "1": {
+        "id": 1,
+        "first_name": "Stu",
+        "last_name": "Dent",
+        "username": "student",
+        "avatar": "https://robohash.org/veniamdoloresenim.png?size=64x64&set=set1",
+        "salt": "48c8947f69c054a5caa934674ce8881d02bb18fb59d5a63eeaddff735b0e9",
+        "password": "97fac5b2d0552f2a3edb3d1a2210acb8797e72073fc7edcc0a268dedf3c4fc0e293ce86112782de309de682d5439662d5c9ee1d11274088bd5e46a9f62cdb8f2"
+    },
+    "2": {
+        "id": 2,
+        "first_name": "Gra",
+        "last_name": "Duate",
+        "username": "graduate",
+        "avatar": "https://robohash.org/nullaautemin.png?size=64x64&set=set1",
+        "salt": "801e87294783281ae49fc8287a0fd86779b27d7972d3e84f0fa0d826d7cb67dfefc",
+        "password": "1d48eaf067849e5b8ec376af9b710753120a5a77144024e8d9ea3fd0ec18ced8ad968e9d3c4e699d71974d3336bd56062bf8879ff9a4e2632e9239fde56cf8b8"
+    },
+    "3": {
+        "id": 3,
+        "first_name": "John",
+        "last_name": "Doe",
+        "username": "jdoe",
+        "avatar": "https://robohash.org/teneturlaborenon.png?size=64x64&set=set1",
+        "salt": "bed05f365dedf27bbb711e6a0b3a630e93e36a0354eb1631ca09ce79b373f141",
+        "password": "1fefa6ff4d3636a7c092cc6c1544018f60124d45fec47557243c88374eb81bc6273911e4aa9fb515844e051d79685b3ca20ad70bdd834a42d42752520e4bcdfa"
+    },
+    "4": {
+        "id": 4,
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "username": "jadoe",
+        "avatar": "https://robohash.org/hicetminus.png?size=64x64&set=set1",
+        "salt": "93d59019867604d84667adf04e858f635be6777842658a473bc0ad98e1d3ffe0",
+        "password": "38bcec693e7db33b20fc6232c4cc8badf5fecee71650707aaf4114f3ec8392dc2713d5ee8357eef0c80207b0f7f6cd0e8f3ff5774c7555a668a6cbffa3f0ab8a"
+    },
+    "5": {
+        "id": 5,
+        "first_name": "Rodrigo",
+        "last_name": "Piccilli",
+        "username": "rgpiccil",
+        "avatar": "https://robohash.org/veniamdoloresenim.png?size=64x64&set=set1",
+        "salt": "515c633791da9235e9c2fa270fa952c69be4ec2ae0cc7da9a60d3f3e9d8ebf7e",
+        "password": "13bf8a6321e38ecbbe7c7f68a3083932ee9d710554b109f99ec04cba0174ccd7ade614f52c3619608a69933834091a1a99c60422c1b70e2fdcc416d8cc3537eb"
+    }
+}

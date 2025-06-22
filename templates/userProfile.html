@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="../css/header-footer.css">
+    <link type="text/css" rel="stylesheet" href="../css/userProfile.css">
+    <script src="/js/userProfile.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="/" id="main">Howler</a>
+
+        <div id="user-info">
+            <a id="current-username"></a>
+            
+            <img id="current-user-image">
+        </div>
+    </header>
+
+    <div id="page-body">
+
+        <div id="user-description">
+
+            <img id="user-image">
+
+            <div id="user-names">
+
+                <h3 id="user-first-last"></h3>
+
+                <h6 id="username"></h6>
+
+                <button id="follow">Follow</button>
+
+            </div>
+
+        </div>
+
+        <div id="following">
+
+            <h3>Following <span>&#8595;</span></h3>
+
+                <template id="following-template">
+
+                    <div class="following-list">
+
+                        <img class="following-image">
+
+                        <div class="following-names">
+
+                            <h3 class="following-name"></h3>
+
+                            <a class="following-username"></a>
+
+                        </div>
+
+                    </div>
+
+                </template>
+
+        </div>
+
+        <div id="user-howls">
+
+            <h3>Howls:</h3>
+
+             <template id="howl-template">
+
+                <div class="howl">
+
+                    <div class="howler-info">
+                        <img>
+                        <h5></h5>
+                        <a></a>
+                        <span></span>
+                    </div>
+
+                    <p></p>
+
+
+                </div>
+
+            </template>
+
+
+        </div>
+
+        <button id="logout">Logout ⏻</button>
+  
+    </div>
+  
+</body>
+
+<footer> 
+    
+    <h1>Howler</h1>
+
+    <div id="upper-footer">
+
+        <ul>
+            <li>Help</li>
+            <li>Contact</li>
+            <li>Security Center</li>
+            <li>Privacy Center</li>
+            <li>Shop</li>
+            <li>Apps</li>
+            <li>Enterprise</li>
+            <li>Partners</li>
+        </ul>
+
+    </div>
+
+    <div id="lower-footer">
+
+        <ul>
+            <li>About</li>
+            <li>Newsroom</li>
+            <li>Jobs</li>
+            <li>Investor Relations</li>
+            <li>Government Relations</li>
+        </ul>
+
+        <ul>
+            <li>&#169;1999-2025</li>
+            <li>Accessibility</li>
+            <li>Privacy Statement</li>
+            <li>Cookies</li>
+            <li>Legal</li>
+        </ul>
+        
+    </div>
+   
+</footer>
+</html>

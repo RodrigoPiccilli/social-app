@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  } 
+
+#main {
+    color: white;
+    text-decoration: none;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #1f5d81;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+#top {
+    visibility: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+  
+nav.howl-container{
+    position: sticky;
+    top: 80px;
+}
+  
+.howl-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 10px;
+    box-shadow: 4px 4px 20px 0px rgb(0, 0, 0, 75);
+  
+    ul {
+        list-style-type: none; 
+        font-size: 20px;
+        padding-left: 0;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+  
+    ul li:last-child {
+        border-bottom: none;
+    }
+  
+    li {
+        border-bottom: black solid;
+        border-width: 1px;
+    }
+}
+
+#howl-input { 
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    width: 35vw;
+    max-height: 35vh;
+  
+    button {
+        border-radius: 10px;
+        border: 3px solid #990000;
+        color: #990000;
+        padding: 5px 10px;
+        font-weight: bold;
+        align-self: flex-end;
+    }
+  
+    textarea {
+        padding: 5px;
+    }
+}
+
+#feed {
+    margin-top: 2.5%;
+    width: 35vw;
+}
+
+.howl {
+    border: 1px solid black;
+    padding: 5%;
+    margin-bottom: 5%;
+    min-height: 200px;
+
+    p {
+        margin-top: 2%;
+    }
+
+    background-color: white;
+    box-shadow: 5px 5px 1px var(--howler-red);
+    border: 2px solid var(--howler-red);
+}
+
+.howler-info {
+    position: relative;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+
+    span {
+        position: absolute;
+        right: 0;
+    }
+
+    img {
+        width: 7%;
+        border-radius: 70%;
+    }
+
+    a, h5 {
+        margin-top: 2%;
+    }
+
+    a {
+        text-decoration: underline;
+        color: var(--howler-red);
+        margin-bottom: 1.5%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #howl-input {
+        width: 90vw;
+    }
+
+    #feed {
+        width: 90vw;
+    }
+
+    .howl {
+        width: 100%;
+    }
+
+    .howler-info img {
+        width: 20%;
+    }
+
+    .howler-info span {
+        display: none;
+    }
+
+    .howler-info h5 {
+        font-size: 1rem;
+    }
+
+    .howl p {
+        padding: 2%;
+    }
+
+    #logout {
+        margin-bottom: 5%;
+    }
+}

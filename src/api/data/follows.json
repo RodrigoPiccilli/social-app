@@ -1,0 +1,42 @@
+{
+    "1": {
+      "userId": 1,
+      "following": [
+        2,
+        3,
+        4
+      ]
+    },
+    "2": {
+      "userId": 2,
+      "following": [
+        3,
+        4,
+        5
+      ]
+    },
+    "3": {
+      "userId": 3,
+      "following": [
+        4,
+        5,
+        1
+      ]
+    },
+    "4": {
+      "userId": 4,
+      "following": [
+        5,
+        1,
+        2
+      ]
+    },
+    "5": {
+      "userId": 5,
+      "following": [
+        1,
+        2,
+        3
+      ]
+    }
+}
